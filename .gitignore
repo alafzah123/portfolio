@@ -60,7 +60,6 @@ coverage.xml
 # Editor files
 *.sublime-project
 *.sublime-workspace
-*.vscode
 .vscode/
 
 # Jupyter Notebook

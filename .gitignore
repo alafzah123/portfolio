@@ -19,7 +19,6 @@ db.sqlite3
 .env.*
 
 # Django static and media files
-staticfiles/
 media/
 
 # Local development environment files

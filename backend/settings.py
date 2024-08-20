@@ -65,6 +65,11 @@ CORS_ALLOW_ALL_ORIGINS = True
 
 ROOT_URLCONF = 'backend.urls'
 
+ALLOWED_HOSTS = [
+    'portfolio-5q0o.onrender.com',
+    'localhost',
+    '127.0.0.1',
+]
 
 TEMPLATES = [
     {
@@ -145,13 +150,13 @@ DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
 
 
-STATICFILES_DIRS=[
-    os.path.join(BASE_DIR,"assets")
+STATICFILES_DIRS = [
+    os.path.join(BASE_DIR, 'static'),
 ]
 MEDIA_URL='/media/'
 MEDIA_ROOT=os.path.join(BASE_DIR,"static_cdn","media_root")
 STATIC_URL = '/static/'
-STATIC_ROOT=os.path.join(BASE_DIR,"static_cdn","static_root")
+STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
 
 # email setup
 EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'

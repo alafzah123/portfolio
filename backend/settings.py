@@ -84,7 +84,11 @@ TEMPLATES = [
 
 WSGI_APPLICATION = 'backend.wsgi.application'
 
-
+ALLOWED_HOSTS = [
+    'portfolio-5q0o.onrender.com',
+    'localhost',
+    '127.0.0.1',
+]
 # Database
 # https://docs.djangoproject.com/en/5.1/ref/settings/#databases
 

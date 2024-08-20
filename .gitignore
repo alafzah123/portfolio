@@ -1,0 +1,71 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Django specific files
+*.log
+*.pot
+*.pyc
+*.pyo
+*.sqlite3
+db.sqlite3
+
+# Django migrations
+**/migrations/
+
+# Environment variables
+.env
+.env.*
+
+# Django static and media files
+staticfiles/
+media/
+
+# Local development environment files
+.vscode/
+.idea/
+.env/
+*.env
+
+# macOS files
+.DS_Store
+
+# Virtual environment
+venv/
+env/
+ENV/
+
+# pipenv, poetry, etc.
+Pipfile
+Pipfile.lock
+poetry.lock
+
+# MyPy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Pytest
+.pytest_cache/
+.tox/
+.coverage
+.cache/
+nosetests.xml
+coverage.xml
+*.cover
+.hypothesis/
+.pytest_cache/
+
+# Editor files
+*.sublime-project
+*.sublime-workspace
+*.vscode
+.vscode/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# Others
+*.swp
+*~
